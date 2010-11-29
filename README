@@ -1,0 +1,34 @@
+Overseer profile
+
+Author: Matthias Vandermaesen
+Web: http://www.colada.be
+Twitter: http://www.twitter.com/netsensei
+mail: matthias@colada.be
+
+DESCRIPTION
+
+This project will allow site administrators and drupal developers to set up a
+complete project tracker in minutes.
+
+PREREQUISITES:
+
+* A suitable environment to host a Drupal installation (local/dedicated/shared)
+* Drush 3.x installed
+* on line connection (drupal + modules will be downloaded)
+
+HOW TO USE:
+
+1. Dump the overseer.make, overseer.profile and build.sh file in a suitable spot
+2. chmod +x build.sh (for good measure)
+3. ./build.sh
+
+Wait until it finishes to download drupal + dependencies
+
+4. cd overseer-profile/
+5. cp -R * <your-webspace-location>
+6. cp .htaccess <your-webspace-location>
+7. surf to http://<your-webspace-location>/install.php
+8. Select 'Overseer profile' instead of 'Drupal'
+9. Follow the installation instructions
+
+DONE.
